@@ -1,0 +1,79 @@
+﻿  compilation object save succeeded; see C:\Users\urisv\Desktop\Real Engine\RealEngine\PSTexture.cso
+  compilation object save succeeded; see C:\Users\urisv\Desktop\Real Engine\RealEngine\PSPointLight.cso
+  compilation object save succeeded; see C:\Users\urisv\Desktop\Real Engine\RealEngine\PSWorldLight.cso
+  compilation object save succeeded; see C:\Users\urisv\Desktop\Real Engine\RealEngine\VertexShader.cso
+  3DMath.cpp
+  Algorithms.cpp
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Algorithms.cpp(25,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  App.cpp
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Cylinder.h(58,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned short
+          ]
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Cylinder.h(62,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned short
+          ]
+C:\Users\urisv\Desktop\Real Engine\RealEngine\App.cpp(51,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\urisv\Desktop\Real Engine\RealEngine\App.cpp(67,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\urisv\Desktop\Real Engine\RealEngine\App.cpp(103,36): warning C4305: 'argument': truncation from 'double' to 'float'
+  Camera.cpp
+  Model.cpp
+  Object.cpp
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Object.cpp(86,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Object.cpp(144,84): warning C4114: same type qualifier used more than once
+  Physics.cpp
+  Random.cpp
+  Engine.cpp
+  Graphics.cpp
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Graphics.cpp(323,57): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Graphics.cpp(356,65): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  Keyboard.cpp
+  Mouse.cpp
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Mouse.cpp(111,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Mouse.cpp(112,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Mouse.cpp(142,41): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Mouse.cpp(142,28): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+  Settings.cpp
+  IcoSphere.cpp
+  Player.cpp
+  Timer.cpp
+  Transform.cpp
+  Window.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\optional(76,17): warning C4244: 'initializing': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Window.cpp(213): message : see reference to function template instantiation 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<WPARAM&>(std::in_place_t,WPARAM &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Window.cpp(213): message : see reference to function template instantiation 'std::_Optional_destruct_base<_Ty,true>::_Optional_destruct_base<WPARAM&>(std::in_place_t,WPARAM &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\optional(192): message : see reference to function template instantiation 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<WPARAM&>(std::in_place_t,WPARAM &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\optional(192): message : see reference to function template instantiation 'std::_Optional_construct_base<_Ty>::_Optional_construct_base<WPARAM&>(std::in_place_t,WPARAM &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Window.cpp(78): message : see reference to function template instantiation 'std::optional<int>::optional<WPARAM&,0>(_Ty2)' being compiled
+          with
+          [
+              _Ty2=WPARAM &
+          ]
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Window.cpp(78): message : see reference to function template instantiation 'std::optional<int>::optional<WPARAM&,0>(_Ty2)' being compiled
+          with
+          [
+              _Ty2=WPARAM &
+          ]
+  Main.cpp
+  Generating Code...
+C:\Users\urisv\Desktop\Real Engine\RealEngine\Main.cpp(60): warning C4715: 'wWinMain': not all control paths return a value
+  RealEngine.vcxproj -> C:\Users\urisv\Desktop\Real Engine\Build\RealEngine\Debug\RealEngine.exe

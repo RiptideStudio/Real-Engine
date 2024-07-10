@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\urisv\Desktop\Real Engine\Build\RealEngine\Debug\RealEngine.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\urisv\Desktop\Real Engine\RealEngine\PSTexture.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\urisv\Desktop\Real Engine\RealEngine\PSPointLight.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\urisv\Desktop\Real Engine\RealEngine\PSWorldLight.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\urisv\Desktop\Real Engine\RealEngine\VertexShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c817f04d-cbfe-4e10-9471-87dad037c3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{93ddbc4c-1228-49ae-91b2-73f32c44c795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="HEADERS\Math">
+      <UniqueIdentifier>{8663874a-3209-4acb-9fdb-f426c237d2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Game">
+      <UniqueIdentifier>{fbb878d3-ed06-427b-86ad-3c16c6a8dc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Game\Input">
+      <UniqueIdentifier>{57badc53-4d43-480f-9dcd-655ef780f69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Game\Engine">
+      <UniqueIdentifier>{dd7f5bb6-5561-47d3-8bf0-31851a796314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Game\Engine\Systems">
+      <UniqueIdentifier>{bd6dc2a9-c370-450a-8ab5-edbb139a60bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SOURCE\Game">
+      <UniqueIdentifier>{36373414-643d-4d4b-a62c-1b509078454b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Game\Input">
+      <UniqueIdentifier>{3710becf-008a-40b7-a2e5-1d12e6762a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Game\Engine">
+      <UniqueIdentifier>{db08c4ad-2d65-4d37-833d-c8bf40bfdbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Game\Engine\Systems">
+      <UniqueIdentifier>{e34b4b33-4929-436c-8996-144b8d28f7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Math">
+      <UniqueIdentifier>{48ab767e-f298-463f-a80b-e04434a397b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Objects">
+      <UniqueIdentifier>{eaa8f499-48b1-4192-8d55-72208192666c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Objects\Components">
+      <UniqueIdentifier>{71d4ce9c-10bb-4709-951e-5a74cd67150c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Objects\Models">
+      <UniqueIdentifier>{bbe306ff-e0f9-422c-ba00-57545a557723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Objects">
+      <UniqueIdentifier>{f715b707-39b8-4b7b-bf02-2aabd6490e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Objects\Components">
+      <UniqueIdentifier>{73688073-794e-4a64-a912-e831d7b37fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Objects\Models">
+      <UniqueIdentifier>{92580224-5c01-41ae-b5a2-e7814d778e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Graphics">
+      <UniqueIdentifier>{8b18063e-7944-47b7-a934-1e640ae41def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\Graphics">
+      <UniqueIdentifier>{d2a9aaed-6fd5-4ff0-be34-9d9320d8b909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE\Misc">
+      <UniqueIdentifier>{687cf587-44bb-4283-9b7f-cabfdd34a425}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>SOURCE\Game\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>SOURCE\Game\Engine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>SOURCE\Game\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="3DMath.cpp">
+      <Filter>SOURCE\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>SOURCE\Game\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>SOURCE\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>SOURCE\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>SOURCE\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>SOURCE\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>SOURCE\Objects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>SOURCE\Objects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="IcoSphere.cpp">
+      <Filter>SOURCE\Objects\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms.cpp">
+      <Filter>SOURCE\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>SOURCE\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>SOURCE\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BIB.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>HEADERS\Game\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>HEADERS\Game\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="3DMath.h">
+      <Filter>HEADERS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>HEADERS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>HEADERS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>HEADERS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>HEADERS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>HEADERS\Game\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>HEADERS\Game\Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>HEADERS\Game\Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>HEADERS\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>HEADERS\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>HEADERS\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>HEADERS\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>HEADERS\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>HEADERS\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>HEADERS\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformBuffer.h">
+      <Filter>HEADERS\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms.h">
+      <Filter>HEADERS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>HEADERS\Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>HEADERS\Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>HEADERS\Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>HEADERS\Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>HEADERS\Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="IcoSphere.h">
+      <Filter>HEADERS\Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>HEADERS\Objects\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>HEADERS\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>HEADERS\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="windowicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PSPointLight.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PSWorldLight.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PSTexture.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
